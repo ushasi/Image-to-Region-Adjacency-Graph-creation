@@ -5,9 +5,9 @@ Convertion of an RGB image to a Region Adjacency Graph (RAG) using SLIC super-pi
 2. Extractfeaturevec.m - contains the features to be extracted from each nodes. 
 3. filterimage.m - This is the main file. We have used the single labelled UC-Merced dataset, containing 21 classes. Mention the path to these images in the "addpath" line. Totgra saves the final matrix containing the node features, wighted adjacency matrix information, etc.
 
-Requirements-
+#Requirements-
 Set up vlfeat library for using the SLIC super-pixel based segmentation.
 
 Find the UC-Merced dtaset from http://bigearth.eu/datasets.html
 
-If you are using this code, please cite the paper: https://arxiv.org/abs/1904.04794 (CMIR-NET : A Deep Learning Based Model For Cross-Modal Retrieval In Remote Sensing)
+If you are using this code, please cite the paper: https://www.sciencedirect.com/science/article/pii/S1077314219300578 (Siamese graph convolutional network for content based remote sensing image retrieval)
