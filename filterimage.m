@@ -38,7 +38,7 @@ h1 = fspecial('log',size_of_filter,0.2);
 h2 = fspecial('log',size_of_filter,1);
 gaborArray = gaborFilterBank(4,8,size_of_filter,size_of_filter);
 
-%{
+
 for j = 1:21
     for i = 0:99
         %disp('**START**');
@@ -194,9 +194,9 @@ end
 % save the variables maximum and minimum
 save('minimum.mat','minimum');
 save('maximum.mat','maximum');
-%}
+
 %end
-%{
+
 LPQfilters=createLPQfilters(3);
 mapping=getmapping(8,'riu2');
 
@@ -246,7 +246,7 @@ for j = 1:21
     end
     j
 end
-%}
+
 
 load('minimum.mat','minimum');
 load('maximum.mat','maximum');
