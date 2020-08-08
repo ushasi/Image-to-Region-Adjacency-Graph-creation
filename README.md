@@ -10,4 +10,20 @@ Set up vlfeat library for using the SLIC super-pixel based segmentation.
 
 Find the UC-Merced dtaset from http://bigearth.eu/datasets.html
 
-If you are using this code, please cite the paper: https://www.sciencedirect.com/science/article/pii/S1077314219300578 (Siamese graph convolutional network for content based remote sensing image retrieval)
+
+### Paper
+
+*    The paper is also available at: [Siamese graph convolutional network for content based remote sensing image retrieval](https://reader.elsevier.com/reader/sd/pii/S1077314219300578?token=FF18DF6BD33340CB07179AE964A960F224B8A29AC597C8D4875C71AF366407364D877984BA4E1BA4FF97548B3C83FB2A)
+
+*   If the work is any help to you, please feel free to cite the author:
+
+```
+@article{chaudhuri2019siamese,
+  title={Siamese graph convolutional network for content based remote sensing image retrieval},
+  author={Chaudhuri, Ushasi and Banerjee, Biplab and Bhattacharya, Avik},
+  journal={Computer Vision and Image Understanding},
+  volume={184},
+  pages={22--30},
+  year={2019},
+  publisher={Elsevier}
+}
