@@ -1,4 +1,6 @@
 # Image-to-Region-Adjacency-Graph-creation
+[Paper](https://reader.elsevier.com/reader/sd/pii/S1077314219300578?token=FF18DF6BD33340CB07179AE964A960F224B8A29AC597C8D4875C71AF366407364D877984BA4E1BA4FF97548B3C83FB2Ahttps://reader.elsevier.com/reader/sd/pii/S1077314219300578?token=FF18DF6BD33340CB07179AE964A960F224B8A29AC597C8D4875C71AF366407364D877984BA4E1BA4FF97548B3C83FB2A) | [MATLAB](https://www.mathworks.com/products/matlab.html)
+
 Convertion of an RGB image to a Region Adjacency Graph (RAG) using SLIC super-pixel based segmentation technique.
 
 1. segmentation.m - contains the type of segmentation algorithm. The code by default uses SLIC superpixel based segmentation. However, a graph-cut based segmentation implementation can also be found in the commented section.
